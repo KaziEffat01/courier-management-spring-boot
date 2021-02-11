@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+        
+<tiles-definitions>  
+ 
+    <!-- Base Define -->
+    <definition name="homePage" 
+                template="/WEB-INF/layouts/dashboard/default.jsp">  
+        <put-attribute name="title" value="" />  
+        <!--<put-attribute name="header" value="/WEB-INF/layouts/dashboard/header.jsp" />-->
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/home.jsp" /> 
+        <!--<put-attribute name="footer" value="/WEB-INF/layouts/dashboard/footer.jsp" />-->
+    </definition>
+    <!--List of Rooms Page-->
+    
+    <!--Contact Page-->
+    <definition name="contactPage" extends="homePage">
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/contact.jsp"/>
+    </definition>
+    <!--Pricing Page-->
+       <definition name="pricePage" extends="homePage">
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/pricing.jsp"/>
+    </definition>
+    
+    <!--Service Page-->
+       <definition name="servicePage" extends="homePage">
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/services.jsp"/>
+    </definition>
+    <!--About Page-->
+       <definition name="aboutPage" extends="homePage">
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/about.jsp"/>
+       </definition>
+    
+    
+    <!--Login Page-->
+    <definition name="reqLogin" extends="homePage">
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/login.jsp"/>
+    </definition>
+    <!--Signup Page-->
+       <definition name="signup" extends="homePage">
+        <put-attribute name="body" value="/WEB-INF/layouts/dashboard/signup.jsp"/>
+    </definition>
+    
+  
+  
+</tiles-definitions> 
