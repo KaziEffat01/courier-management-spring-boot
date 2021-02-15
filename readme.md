@@ -7,6 +7,14 @@
 - Bootstrap
 - Css
 - Mysql(Database).
+
+
+## Features of this project
+  - User can send request for courier
+  - User can track parcel with product id
+  - Admin can view request and acccept request
+  - Delivery Person can Update current location
+  
   
   ### To run this Project you need 
   - Apache Netbeans IDE 12.1
@@ -28,5 +36,9 @@ git clone https://github.com/KaziEffat01/courier-management-spring-boot.git
       - If you want to have a different schema, change application.properties accordingly
   
   ### Sample Images
+
+  ## Home Page
   ![Home](image/home.PNG)
+
+  ## Price Page
   ![Price](image/price.PNG)
