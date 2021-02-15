@@ -1,4 +1,10 @@
-# Courier Management System Project
+#  Project Name: Courier Management System 
+
+```
+Author Name: Kazi Effat Hossain
+Author Email: effathossain67@gmail.com
+```
+
 
 ## Technologies Used Here
 - Spring boot
@@ -6,7 +12,7 @@
 - JavaScript
 - Bootstrap
 - Css
-- Mysql(Database).
+- Mysql.
 
 
 ## Features of this project
@@ -17,8 +23,8 @@
   
   
   ### To run this Project you need 
-  - Apache Netbeans IDE 12.1
-  - Mysql Workbench
+  
+  - Mysql
   
   ### How to run this project
 Clone the project using the following command:
